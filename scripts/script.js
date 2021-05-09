@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         // CODE GOES HERE vvv
-        //var entryObj = JSON.parse(entry);
         newPost = document.createElement("journal-entry");
         newPost.entry = entry;
         document.getElementsByTagName('main')[0].appendChild(newPost);
